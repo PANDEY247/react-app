@@ -133,7 +133,7 @@ const Container = styled.div`
       top: 0;
       right: 0;
       border: none;
-      background: beige;
+      background: none;
       svg {
         width: 1.5rem;
         height: 1.5rem;
@@ -150,13 +150,13 @@ const Container = styled.div`
     width: 60%;
     color: brown;
     span {
-      color: var(--orange);
+      color: var(--yellow);
     }
   }
 
   @media (max-width: 480px) {
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
     div {
       order: 1;
       width: 100%;

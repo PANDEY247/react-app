@@ -37,7 +37,7 @@ export default function Categories() {
         console.log(dishes);
       })
       .catch((err) => console.log(err));
-  }, [count, url]);
+  }, [count, dishes, url]);
 
   return (
     <Container className="Categories flex-column">

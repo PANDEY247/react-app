@@ -49,13 +49,13 @@ const Container = styled.div`
     padding: 1rem;
     font-size: 1rem;
   }
-  .dropdown {
+  .dropdown {    
     position: relative;
     height: 100%;
     width: 10rem;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: orange;
     color: white;
     cursor: pointer;
     .dropdown-content {
@@ -65,7 +65,7 @@ const Container = styled.div`
       height: 12rem;
       overflow: auto;
       align-items: center;
-      color: black;
+      color: orange;
       border-radius: 0.2rem;
       background-color: rgb(244, 244, 244);
       p {

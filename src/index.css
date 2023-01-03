@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Poppins:wght@400;500&display=swap");
 :root {
-  --yellow: rgb(231, 181, 0);
+  --yellow: black;
   --light-gray: rgb(190, 190, 194);
   --red: rgb(252, 56, 56);
 }
@@ -94,7 +94,7 @@ h4 {
 .outline-btn:hover {
   border: none;
   background-color: orange;
-  color: black;
+  color: white;
 }
 .fill-btn:hover,
 .outline-btn {

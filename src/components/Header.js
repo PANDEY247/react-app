@@ -109,7 +109,7 @@ const Container = styled.div`
         &:hover {
           border: none;
           font-size: 1.25rem;
-          color: var(--black);
+          color: var(--yellow);
         }
         &::after {
           content: "";
@@ -120,7 +120,7 @@ const Container = styled.div`
           width: 0;
           right: 0;
           margin: auto;
-          background-color: var(--black);
+          background-color: var(--yellow);
           transition: width 0.3s ease-in;
         }
         &:hover::after {
