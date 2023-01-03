@@ -91,7 +91,7 @@ const Container = styled.div`
   position: fixed;
   height: 5rem;
   color: white;
-  background-color: black;
+  background-color: orange;
   align-items: center;
   justify-content: space-between;
   padding: 0 10%;
@@ -109,7 +109,7 @@ const Container = styled.div`
         &:hover {
           border: none;
           font-size: 1.25rem;
-          color: var(--yellow);
+          color: var(--black);
         }
         &::after {
           content: "";
@@ -120,7 +120,7 @@ const Container = styled.div`
           width: 0;
           right: 0;
           margin: auto;
-          background-color: var(--yellow);
+          background-color: var(--black);
           transition: width 0.3s ease-in;
         }
         &:hover::after {

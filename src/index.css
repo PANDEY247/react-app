@@ -93,8 +93,8 @@ h4 {
 .fill-btn,
 .outline-btn:hover {
   border: none;
-  background-color: black;
-  color: white;
+  background-color: orange;
+  color: black;
 }
 .fill-btn:hover,
 .outline-btn {
